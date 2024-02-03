@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1636.25" height="531.25" viewBox="-29.5 0 1309.0 425.0">
+<defs>
+</defs>
+<path d="M10,25 L25,25" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M10,75 L25,75" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M10,125 L25,125" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M10,175 L25,175" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M10,225 L25,225" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M10,275 L25,275" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M10,325 L25,325" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M10,375 L25,375" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M25,75 L45,75 M55,75 L75,75" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M40,85 L60,85 L60,65 L40,65 L40,85" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="50" y="94" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M25,125 L45,125 M55,125 L75,125" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M40,135 L60,135 L60,115 L40,115 L40,135" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="50" y="144" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M25,175 L45,175 M55,175 L75,175" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M40,185 L60,185 L60,165 L40,165 L40,185" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="50" y="194" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M87.9442,75.0002 C101.65379999999999,75.0002,101.5923,100.0,115.30189999999999,100.0 M115.3038,100.0 C101.59219999999999,100.0,101.65379999999999,124.9998,87.94409999999999,124.9998 M115.3038,100.0 L137.1884,100.0 M137.1884,100.0 C150.9,100.0,150.8384,75.0002,164.5481,75.0002 M137.1884,100.0 C150.9,100.0,150.8384,124.9998,164.5481,124.9998 M75.0,75.0 L88.0,75.0 M88.0019,124.9998 L75.0,124.9998 M162.64530000000002,124.9998 L175.0,124.9998 M162.1944,74.9998 L175.0,74.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="125" y="88" font-size="7" text-anchor="middle"></text>
+<path d="M147,103 L157,103 L157,113 L147,113 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="152" y="110" font-size="6" text-anchor="middle">Rx</text>
+<path d="M175,75 L195,75 M205,75 L225,75" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M190,85 L210,85 L210,65 L190,65 L190,85" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="200" y="94" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M175,125 L225,125" stroke="black" stroke-width="1" fill="none" />
+<path d="M237.9442,75.0002 C251.6538,75.0002,251.5923,100.0,265.3019,100.0 M265.30379999999997,100.0 C251.59219999999996,100.0,251.65379999999996,124.9998,237.94409999999996,124.9998 M265.30379999999997,100.0 L287.18839999999994,100.0 M287.18839999999994,100.0 C300.9,100.0,300.8384,75.0002,314.5481,75.0002 M287.1884,100.0 C300.9,100.0,300.8384,124.9998,314.5481,124.9998 M224.99999999999997,75.0 L237.99999999999997,75.0 M238.00189999999998,124.9998 L224.99999999999997,124.9998 M312.64529999999996,124.9998 L324.99999999999994,124.9998 M312.1944,74.9998 L325.0,74.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="275" y="88" font-size="7" text-anchor="middle"></text>
+<path d="M297,103 L307,103 L307,113 L297,113 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="302" y="110" font-size="6" text-anchor="middle">Rx</text>
+<path d="M25,25 L325,25" stroke="black" stroke-width="1" fill="none" />
+<path d="M337.9442,25.0002 C351.65380000000005,25.0002,351.5923,50.0,365.30190000000005,50.0 M365.3038,50.0 C351.59220000000005,50.0,351.65380000000005,74.9998,337.94410000000005,74.9998 M365.3038,49.99999999999999 L387.1884,49.99999999999999 M387.1884,49.99999999999999 C400.9,49.99999999999999,400.8384,25.000199999999992,414.5481,25.000199999999992 M387.1884,49.99999999999999 C400.9,49.99999999999999,400.8384,74.9998,414.5481,74.9998 M325.0,24.999999999999993 L338.0,24.999999999999993 M338.0019,74.9998 L325.0,74.9998 M412.6453,74.9998 L425.0,74.9998 M412.1944,24.999799999999993 L425.0,24.999799999999993" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="375" y="38" font-size="7" text-anchor="middle"></text>
+<path d="M397,53 L407,53 L407,63 L397,63 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="402" y="60" font-size="6" text-anchor="middle">Rx</text>
+<path d="M75,175 L325,175" stroke="black" stroke-width="1" fill="none" />
+<path d="M337.9442,125.0002 C351.65380000000005,125.0002,351.5923,150.0,365.30190000000005,150.0 M365.3038,150.0 C351.59220000000005,150.0,351.65380000000005,174.9998,337.94410000000005,174.9998 M365.3038,150.0 L387.1884,150.0 M387.1884,150.0 C400.9,150.0,400.8384,125.0002,414.5481,125.0002 M387.1884,150.0 C400.9,150.0,400.8384,174.9998,414.5481,174.9998 M325.0,125.0 L338.0,125.0 M338.0019,174.9998 L325.0,174.9998 M412.6453,174.9998 L425.0,174.9998 M412.1944,124.9998 L425.0,124.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="375" y="138" font-size="7" text-anchor="middle"></text>
+<path d="M397,153 L407,153 L407,163 L397,163 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="402" y="160" font-size="6" text-anchor="middle">Rx</text>
+<path d="M425,25 L445,25 M455,25 L475,25" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M440,35 L460,35 L460,15 L440,15 L440,35" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="450" y="44" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M425,75 L475,75" stroke="black" stroke-width="1" fill="none" />
+<path d="M487.9442,25.0002 C501.65380000000005,25.0002,501.5923,50.0,515.3019,50.0 M515.3038,50.0 C501.59220000000005,50.0,501.65380000000005,74.9998,487.94410000000005,74.9998 M515.3038,49.99999999999999 L537.1884,49.99999999999999 M537.1884,49.99999999999999 C550.9,49.99999999999999,550.8384,25.000199999999992,564.5481,25.000199999999992 M537.1884,49.99999999999999 C550.9,49.99999999999999,550.8384,74.9998,564.5481,74.9998 M475.0,24.999999999999993 L488.0,24.999999999999993 M488.0019,74.9998 L475.0,74.9998 M562.6453,74.9998 L575.0,74.9998 M562.1944,24.999799999999993 L575.0,24.999799999999993" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="525" y="38" font-size="7" text-anchor="middle"></text>
+<path d="M547,53 L557,53 L557,63 L547,63 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="552" y="60" font-size="6" text-anchor="middle">Rx</text>
+<path d="M425,125 L445,125 M455,125 L475,125" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M440,135 L460,135 L460,115 L440,115 L440,135" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="450" y="144" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M425,175 L475,175" stroke="black" stroke-width="1" fill="none" />
+<path d="M487.9442,125.0002 C501.65380000000005,125.0002,501.5923,150.0,515.3019,150.0 M515.3038,150.0 C501.59220000000005,150.0,501.65380000000005,174.9998,487.94410000000005,174.9998 M515.3038,150.0 L537.1884,150.0 M537.1884,150.0 C550.9,150.0,550.8384,125.0002,564.5481,125.0002 M537.1884,150.0 C550.9,150.0,550.8384,174.9998,564.5481,174.9998 M475.0,125.0 L488.0,125.0 M488.0019,174.9998 L475.0,174.9998 M562.6453,174.9998 L575.0,174.9998 M562.1944,124.9998 L575.0,124.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="525" y="138" font-size="7" text-anchor="middle"></text>
+<path d="M547,153 L557,153 L557,163 L547,163 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="552" y="160" font-size="6" text-anchor="middle">Rx</text>
+<path d="M575,75 L595,75 M605,75 L625,75" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M590,85 L610,85 L610,65 L590,65 L590,85" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="600" y="94" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M575,125 L625,125" stroke="black" stroke-width="1" fill="none" />
+<path d="M637.9442,75.0002 C651.6538,75.0002,651.5923,100.0,665.3019,100.0 M665.3038,100.0 C651.5922,100.0,651.6538,124.9998,637.9441,124.9998 M665.3038,100.0 L687.1884,100.0 M687.1884,100.0 C700.9,100.0,700.8384,75.0002,714.5481,75.0002 M687.1884,100.0 C700.9,100.0,700.8384,124.9998,714.5481,124.9998 M625.0,75.0 L638.0,75.0 M638.0019,124.9998 L625.0,124.9998 M712.6453,124.9998 L725.0,124.9998 M712.1944,74.9998 L725.0,74.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="675" y="88" font-size="7" text-anchor="middle"></text>
+<path d="M697,103 L707,103 L707,113 L697,113 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="702" y="110" font-size="6" text-anchor="middle">Rx</text>
+<path d="M725,75 L745,75 M755,75 L775,75" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M740,85 L760,85 L760,65 L740,65 L740,85" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="750" y="94" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M725,125 L775,125" stroke="black" stroke-width="1" fill="none" />
+<path d="M787.9442,75.0002 C801.6538,75.0002,801.5923,100.0,815.3019,100.0 M815.3038,100.0 C801.5922,100.0,801.6538,124.9998,787.9441,124.9998 M815.3038,100.0 L837.1884,100.0 M837.1884,100.0 C850.9,100.0,850.8384,75.0002,864.5481,75.0002 M837.1884,100.0 C850.9,100.0,850.8384,124.9998,864.5481,124.9998 M775.0,75.0 L788.0,75.0 M788.0019,124.9998 L775.0,124.9998 M862.6453,124.9998 L875.0,124.9998 M862.1944,74.9998 L875.0,74.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="825" y="88" font-size="7" text-anchor="middle"></text>
+<path d="M847,103 L857,103 L857,113 L847,113 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="852" y="110" font-size="6" text-anchor="middle">Rx</text>
+<path d="M575,25 L595,25 M605,25 L625,25" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M590,35 L610,35 L610,15 L590,15 L590,35" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="600" y="44" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M875,125 L895,125 M905,125 L925,125" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M890,135 L910,135 L910,115 L890,115 L890,135" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="900" y="144" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M625,25 L875,25" stroke="black" stroke-width="1" fill="none" />
+<path d="M887.9442,25.0002 C901.6538,25.0002,901.5923,50.0,915.3019,50.0 M915.3038,50.0 C901.5922,50.0,901.6538,74.9998,887.9441,74.9998 M915.3038,49.99999999999999 L937.1884,49.99999999999999 M937.1884,49.99999999999999 C950.9,49.99999999999999,950.8384,25.000199999999992,964.5481,25.000199999999992 M937.1884,49.99999999999999 C950.9,49.99999999999999,950.8384,74.9998,964.5481,74.9998 M875.0,24.999999999999993 L888.0,24.999999999999993 M888.0019,74.9998 L875.0,74.9998 M962.6453,74.9998 L975.0,74.9998 M962.1944,24.999799999999993 L975.0,24.999799999999993" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="925" y="38" font-size="7" text-anchor="middle"></text>
+<path d="M947,53 L957,53 L957,63 L947,63 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="952" y="60" font-size="6" text-anchor="middle">Rx</text>
+<path d="M575,175 L925,175" stroke="black" stroke-width="1" fill="none" />
+<path d="M937.9442,125.0002 C951.6538,125.0002,951.5923,150.0,965.3019,150.0 M965.3038,150.0 C951.5922,150.0,951.6538,174.9998,937.9441,174.9998 M965.3038,150.0 L987.1884,150.0 M987.1884,150.0 C1000.9,150.0,1000.8384,125.0002,1014.5481,125.0002 M987.1884,150.0 C1000.9,150.0,1000.8384,174.9998,1014.5481,174.9998 M925.0,125.0 L938.0,125.0 M938.0019,174.9998 L925.0,174.9998 M1012.6453,174.9998 L1025.0,174.9998 M1012.1944,124.9998 L1025.0,124.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="975" y="138" font-size="7" text-anchor="middle"></text>
+<path d="M997,153 L1007,153 L1007,163 L997,163 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="1002" y="160" font-size="6" text-anchor="middle">Rx</text>
+<path d="M975,25 L995,25 M1005,25 L1025,25" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M990,35 L1010,35 L1010,15 L990,15 L990,35" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1000" y="44" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M975,75 L1025,75" stroke="black" stroke-width="1" fill="none" />
+<path d="M1037.9442,25.0002 C1051.6537999999998,25.0002,1051.5922999999998,50.0,1065.3019,50.0 M1065.3038,50.0 C1051.5921999999998,50.0,1051.6537999999998,74.9998,1037.9441,74.9998 M1065.3038,49.99999999999999 L1087.1884,49.99999999999999 M1087.1884,49.99999999999999 C1100.9,49.99999999999999,1100.8384,25.000199999999992,1114.5481,25.000199999999992 M1087.1884,49.99999999999999 C1100.9,49.99999999999999,1100.8384,74.9998,1114.5481,74.9998 M1025.0,24.999999999999993 L1038.0,24.999999999999993 M1038.0019,74.9998 L1025.0,74.9998 M1112.6453,74.9998 L1125.0,74.9998 M1112.1944,24.999799999999993 L1125.0,24.999799999999993" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="1075" y="38" font-size="7" text-anchor="middle"></text>
+<path d="M1097,53 L1107,53 L1107,63 L1097,63 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="1102" y="60" font-size="6" text-anchor="middle">Rx</text>
+<path d="M1025,125 L1045,125 M1055,125 L1075,125" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1040,135 L1060,135 L1060,115 L1040,115 L1040,135" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1050" y="144" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M1025,175 L1075,175" stroke="black" stroke-width="1" fill="none" />
+<path d="M1087.9442,125.0002 C1101.6537999999998,125.0002,1101.5922999999998,150.0,1115.3019,150.0 M1115.3038,150.0 C1101.5921999999998,150.0,1101.6537999999998,174.9998,1087.9441,174.9998 M1115.3038,150.0 L1137.1884,150.0 M1137.1884,150.0 C1150.9,150.0,1150.8384,125.0002,1164.5481,125.0002 M1137.1884,150.0 C1150.9,150.0,1150.8384,174.9998,1164.5481,174.9998 M1075.0,125.0 L1088.0,125.0 M1088.0019,174.9998 L1075.0,174.9998 M1162.6453,174.9998 L1175.0,174.9998 M1162.1944,124.9998 L1175.0,124.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="1125" y="138" font-size="7" text-anchor="middle"></text>
+<path d="M1147,153 L1157,153 L1157,163 L1147,163 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="1152" y="160" font-size="6" text-anchor="middle">Rx</text>
+<path d="M1125,25 L1145,25 M1155,25 L1175,25" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1140,35 L1160,35 L1160,15 L1140,15 L1140,35" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1150" y="44" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M1125,75 L1145,75 M1155,75 L1175,75" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1140,85 L1160,85 L1160,65 L1140,65 L1140,85" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1150" y="94" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M1175,125 L1195,125 M1205,125 L1225,125" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1190,135 L1210,135 L1210,115 L1190,115 L1190,135" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1200" y="144" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M25,275 L45,275 M55,275 L75,275" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M40,285 L60,285 L60,265 L40,265 L40,285" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="50" y="294" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M25,325 L45,325 M55,325 L75,325" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M40,335 L60,335 L60,315 L40,315 L40,335" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="50" y="344" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M25,375 L45,375 M55,375 L75,375" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M40,385 L60,385 L60,365 L40,365 L40,385" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="50" y="394" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M87.9442,275.0002 C101.65379999999999,275.0002,101.5923,300.0,115.30189999999999,300.0 M115.3038,300.0 C101.59219999999999,300.0,101.65379999999999,324.9998,87.94409999999999,324.9998 M115.3038,300.0 L137.1884,300.0 M137.1884,300.0 C150.9,300.0,150.8384,275.0002,164.5481,275.0002 M137.1884,300.0 C150.9,300.0,150.8384,324.9998,164.5481,324.9998 M75.0,275.0 L88.0,275.0 M88.0019,324.9998 L75.0,324.9998 M162.64530000000002,324.9998 L175.0,324.9998 M162.1944,274.9998 L175.0,274.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="125" y="288" font-size="7" text-anchor="middle"></text>
+<path d="M147,303 L157,303 L157,313 L147,313 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="152" y="310" font-size="6" text-anchor="middle">Rx</text>
+<path d="M175,275 L195,275 M205,275 L225,275" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M190,285 L210,285 L210,265 L190,265 L190,285" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="200" y="294" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M175,325 L225,325" stroke="black" stroke-width="1" fill="none" />
+<path d="M237.9442,275.0002 C251.6538,275.0002,251.5923,300.0,265.3019,300.0 M265.30379999999997,300.0 C251.59219999999996,300.0,251.65379999999996,324.9998,237.94409999999996,324.9998 M265.30379999999997,300.0 L287.18839999999994,300.0 M287.18839999999994,300.0 C300.9,300.0,300.8384,275.0002,314.5481,275.0002 M287.1884,300.0 C300.9,300.0,300.8384,324.9998,314.5481,324.9998 M224.99999999999997,275.0 L237.99999999999997,275.0 M238.00189999999998,324.9998 L224.99999999999997,324.9998 M312.64529999999996,324.9998 L324.99999999999994,324.9998 M312.1944,274.9998 L325.0,274.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="275" y="288" font-size="7" text-anchor="middle"></text>
+<path d="M297,303 L307,303 L307,313 L297,313 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="302" y="310" font-size="6" text-anchor="middle">Rx</text>
+<path d="M25,225 L325,225" stroke="black" stroke-width="1" fill="none" />
+<path d="M337.9442,225.0002 C351.65380000000005,225.0002,351.5923,250.0,365.30190000000005,250.0 M365.3038,250.0 C351.59220000000005,250.0,351.65380000000005,274.9998,337.94410000000005,274.9998 M365.3038,250.0 L387.1884,250.0 M387.1884,250.0 C400.9,250.0,400.8384,225.0002,414.5481,225.0002 M387.1884,250.0 C400.9,250.0,400.8384,274.9998,414.5481,274.9998 M325.0,225.0 L338.0,225.0 M338.0019,274.9998 L325.0,274.9998 M412.6453,274.9998 L425.0,274.9998 M412.1944,224.9998 L425.0,224.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="375" y="238" font-size="7" text-anchor="middle"></text>
+<path d="M397,253 L407,253 L407,263 L397,263 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="402" y="260" font-size="6" text-anchor="middle">Rx</text>
+<path d="M75,375 L325,375" stroke="black" stroke-width="1" fill="none" />
+<path d="M337.9442,325.0002 C351.65380000000005,325.0002,351.5923,350.0,365.30190000000005,350.0 M365.3038,350.0 C351.59220000000005,350.0,351.65380000000005,374.9998,337.94410000000005,374.9998 M365.3038,350.0 L387.1884,350.0 M387.1884,350.0 C400.9,350.0,400.8384,325.0002,414.5481,325.0002 M387.1884,350.0 C400.9,350.0,400.8384,374.9998,414.5481,374.9998 M325.0,325.0 L338.0,325.0 M338.0019,374.9998 L325.0,374.9998 M412.6453,374.9998 L425.0,374.9998 M412.1944,324.9998 L425.0,324.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="375" y="338" font-size="7" text-anchor="middle"></text>
+<path d="M397,353 L407,353 L407,363 L397,363 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="402" y="360" font-size="6" text-anchor="middle">Rx</text>
+<path d="M425,225 L445,225 M455,225 L475,225" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M440,235 L460,235 L460,215 L440,215 L440,235" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="450" y="244" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M425,275 L475,275" stroke="black" stroke-width="1" fill="none" />
+<path d="M487.9442,225.0002 C501.65380000000005,225.0002,501.5923,250.0,515.3019,250.0 M515.3038,250.0 C501.59220000000005,250.0,501.65380000000005,274.9998,487.94410000000005,274.9998 M515.3038,250.0 L537.1884,250.0 M537.1884,250.0 C550.9,250.0,550.8384,225.0002,564.5481,225.0002 M537.1884,250.0 C550.9,250.0,550.8384,274.9998,564.5481,274.9998 M475.0,225.0 L488.0,225.0 M488.0019,274.9998 L475.0,274.9998 M562.6453,274.9998 L575.0,274.9998 M562.1944,224.9998 L575.0,224.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="525" y="238" font-size="7" text-anchor="middle"></text>
+<path d="M547,253 L557,253 L557,263 L547,263 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="552" y="260" font-size="6" text-anchor="middle">Rx</text>
+<path d="M425,325 L445,325 M455,325 L475,325" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M440,335 L460,335 L460,315 L440,315 L440,335" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="450" y="344" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M425,375 L475,375" stroke="black" stroke-width="1" fill="none" />
+<path d="M487.9442,325.0002 C501.65380000000005,325.0002,501.5923,350.0,515.3019,350.0 M515.3038,350.0 C501.59220000000005,350.0,501.65380000000005,374.9998,487.94410000000005,374.9998 M515.3038,350.0 L537.1884,350.0 M537.1884,350.0 C550.9,350.0,550.8384,325.0002,564.5481,325.0002 M537.1884,350.0 C550.9,350.0,550.8384,374.9998,564.5481,374.9998 M475.0,325.0 L488.0,325.0 M488.0019,374.9998 L475.0,374.9998 M562.6453,374.9998 L575.0,374.9998 M562.1944,324.9998 L575.0,324.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="525" y="338" font-size="7" text-anchor="middle"></text>
+<path d="M547,353 L557,353 L557,363 L547,363 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="552" y="360" font-size="6" text-anchor="middle">Rx</text>
+<path d="M575,275 L595,275 M605,275 L625,275" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M590,285 L610,285 L610,265 L590,265 L590,285" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="600" y="294" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M575,325 L625,325" stroke="black" stroke-width="1" fill="none" />
+<path d="M637.9442,275.0002 C651.6538,275.0002,651.5923,300.0,665.3019,300.0 M665.3038,300.0 C651.5922,300.0,651.6538,324.9998,637.9441,324.9998 M665.3038,300.0 L687.1884,300.0 M687.1884,300.0 C700.9,300.0,700.8384,275.0002,714.5481,275.0002 M687.1884,300.0 C700.9,300.0,700.8384,324.9998,714.5481,324.9998 M625.0,275.0 L638.0,275.0 M638.0019,324.9998 L625.0,324.9998 M712.6453,324.9998 L725.0,324.9998 M712.1944,274.9998 L725.0,274.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="675" y="288" font-size="7" text-anchor="middle"></text>
+<path d="M697,303 L707,303 L707,313 L697,313 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="702" y="310" font-size="6" text-anchor="middle">Rx</text>
+<path d="M725,275 L745,275 M755,275 L775,275" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M740,285 L760,285 L760,265 L740,265 L740,285" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="750" y="294" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M725,325 L775,325" stroke="black" stroke-width="1" fill="none" />
+<path d="M787.9442,275.0002 C801.6538,275.0002,801.5923,300.0,815.3019,300.0 M815.3038,300.0 C801.5922,300.0,801.6538,324.9998,787.9441,324.9998 M815.3038,300.0 L837.1884,300.0 M837.1884,300.0 C850.9,300.0,850.8384,275.0002,864.5481,275.0002 M837.1884,300.0 C850.9,300.0,850.8384,324.9998,864.5481,324.9998 M775.0,275.0 L788.0,275.0 M788.0019,324.9998 L775.0,324.9998 M862.6453,324.9998 L875.0,324.9998 M862.1944,274.9998 L875.0,274.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="825" y="288" font-size="7" text-anchor="middle"></text>
+<path d="M847,303 L857,303 L857,313 L847,313 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="852" y="310" font-size="6" text-anchor="middle">Rx</text>
+<path d="M575,225 L595,225 M605,225 L625,225" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M590,235 L610,235 L610,215 L590,215 L590,235" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="600" y="244" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M875,325 L895,325 M905,325 L925,325" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M890,335 L910,335 L910,315 L890,315 L890,335" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="900" y="344" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M625,225 L875,225" stroke="black" stroke-width="1" fill="none" />
+<path d="M887.9442,225.0002 C901.6538,225.0002,901.5923,250.0,915.3019,250.0 M915.3038,250.0 C901.5922,250.0,901.6538,274.9998,887.9441,274.9998 M915.3038,250.0 L937.1884,250.0 M937.1884,250.0 C950.9,250.0,950.8384,225.0002,964.5481,225.0002 M937.1884,250.0 C950.9,250.0,950.8384,274.9998,964.5481,274.9998 M875.0,225.0 L888.0,225.0 M888.0019,274.9998 L875.0,274.9998 M962.6453,274.9998 L975.0,274.9998 M962.1944,224.9998 L975.0,224.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="925" y="238" font-size="7" text-anchor="middle"></text>
+<path d="M947,253 L957,253 L957,263 L947,263 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="952" y="260" font-size="6" text-anchor="middle">Rx</text>
+<path d="M575,375 L925,375" stroke="black" stroke-width="1" fill="none" />
+<path d="M937.9442,325.0002 C951.6538,325.0002,951.5923,350.0,965.3019,350.0 M965.3038,350.0 C951.5922,350.0,951.6538,374.9998,937.9441,374.9998 M965.3038,350.0 L987.1884,350.0 M987.1884,350.0 C1000.9,350.0,1000.8384,325.0002,1014.5481,325.0002 M987.1884,350.0 C1000.9,350.0,1000.8384,374.9998,1014.5481,374.9998 M925.0,325.0 L938.0,325.0 M938.0019,374.9998 L925.0,374.9998 M1012.6453,374.9998 L1025.0,374.9998 M1012.1944,324.9998 L1025.0,324.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="975" y="338" font-size="7" text-anchor="middle"></text>
+<path d="M997,353 L1007,353 L1007,363 L997,363 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="1002" y="360" font-size="6" text-anchor="middle">Rx</text>
+<path d="M975,225 L995,225 M1005,225 L1025,225" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M990,235 L1010,235 L1010,215 L990,215 L990,235" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1000" y="244" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M975,275 L1025,275" stroke="black" stroke-width="1" fill="none" />
+<path d="M1037.9442,225.0002 C1051.6537999999998,225.0002,1051.5922999999998,250.0,1065.3019,250.0 M1065.3038,250.0 C1051.5921999999998,250.0,1051.6537999999998,274.9998,1037.9441,274.9998 M1065.3038,250.0 L1087.1884,250.0 M1087.1884,250.0 C1100.9,250.0,1100.8384,225.0002,1114.5481,225.0002 M1087.1884,250.0 C1100.9,250.0,1100.8384,274.9998,1114.5481,274.9998 M1025.0,225.0 L1038.0,225.0 M1038.0019,274.9998 L1025.0,274.9998 M1112.6453,274.9998 L1125.0,274.9998 M1112.1944,224.9998 L1125.0,224.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="1075" y="238" font-size="7" text-anchor="middle"></text>
+<path d="M1097,253 L1107,253 L1107,263 L1097,263 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="1102" y="260" font-size="6" text-anchor="middle">Rx</text>
+<path d="M1025,325 L1045,325 M1055,325 L1075,325" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1040,335 L1060,335 L1060,315 L1040,315 L1040,335" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1050" y="344" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M1025,375 L1075,375" stroke="black" stroke-width="1" fill="none" />
+<path d="M1087.9442,325.0002 C1101.6537999999998,325.0002,1101.5922999999998,350.0,1115.3019,350.0 M1115.3038,350.0 C1101.5921999999998,350.0,1101.6537999999998,374.9998,1087.9441,374.9998 M1115.3038,350.0 L1137.1884,350.0 M1137.1884,350.0 C1150.9,350.0,1150.8384,325.0002,1164.5481,325.0002 M1137.1884,350.0 C1150.9,350.0,1150.8384,374.9998,1164.5481,374.9998 M1075.0,325.0 L1088.0,325.0 M1088.0019,374.9998 L1075.0,374.9998 M1162.6453,374.9998 L1175.0,374.9998 M1162.1944,324.9998 L1175.0,324.9998" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="1125" y="338" font-size="7" text-anchor="middle"></text>
+<path d="M1147,353 L1157,353 L1157,363 L1147,363 Z" stroke="black" fill="thistle" stroke-linejoin="miter" />
+<text x="1152" y="360" font-size="6" text-anchor="middle">Rx</text>
+<path d="M1125,225 L1145,225 M1155,225 L1175,225" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1140,235 L1160,235 L1160,215 L1140,215 L1140,235" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1150" y="244" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M1125,275 L1145,275 M1155,275 L1175,275" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1140,285 L1160,285 L1160,265 L1140,265 L1140,285" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1150" y="294" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M1175,325 L1195,325 M1205,325 L1225,325" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1190,335 L1210,335 L1210,315 L1190,315 L1190,335" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="lightgray" />
+<text x="1200" y="344" font-size="7" text-anchor="middle">Φ=pi/2</text>
+<path d="M1175,25 L1225,25" stroke="black" stroke-width="1" fill="none" />
+<path d="M1175,75 L1225,75" stroke="black" stroke-width="1" fill="none" />
+<path d="M1175,175 L1225,175" stroke="black" stroke-width="1" fill="none" />
+<path d="M1175,225 L1225,225" stroke="black" stroke-width="1" fill="none" />
+<path d="M1175,275 L1225,275" stroke="black" stroke-width="1" fill="none" />
+<path d="M1175,375 L1225,375" stroke="black" stroke-width="1" fill="none" />
+<path d="M1225,25 L1240,25" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1225,75 L1240,75" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1225,125 L1240,125" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1225,175 L1240,175" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1225,225 L1240,225" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1225,275 L1240,275" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1225,325 L1240,325" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<path d="M1225,375 L1240,375" stroke-width="1" stroke="black" stroke-linejoin="miter" fill="none" />
+<text x="1250" y="28" font-size="9" text-anchor="end">0</text>
+<text x="1250" y="78" font-size="9" text-anchor="end">1</text>
+<text x="1250" y="128" font-size="9" text-anchor="end">2</text>
+<text x="1250" y="178" font-size="9" text-anchor="end">3</text>
+<text x="1250" y="228" font-size="9" text-anchor="end">4</text>
+<text x="1250" y="278" font-size="9" text-anchor="end">5</text>
+<text x="1250" y="328" font-size="9" text-anchor="end">6</text>
+<text x="1250" y="378" font-size="9" text-anchor="end">7</text>
+<text x="0" y="28" font-size="9" text-anchor="start">0</text>
+<text x="0" y="78" font-size="9" text-anchor="start">1</text>
+<text x="0" y="128" font-size="9" text-anchor="start">2</text>
+<text x="0" y="178" font-size="9" text-anchor="start">3</text>
+<text x="0" y="228" font-size="9" text-anchor="start">4</text>
+<text x="0" y="278" font-size="9" text-anchor="start">5</text>
+<text x="0" y="328" font-size="9" text-anchor="start">6</text>
+<text x="0" y="378" font-size="9" text-anchor="start">7</text>
+</svg>
