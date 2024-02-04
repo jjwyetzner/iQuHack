@@ -1,4 +1,4 @@
-﻿jupyter==1.0.0
-matplotlib==3.8.2
-numpy==1.26.3
-perceval-quandela==0.10.3
+pip install ﻿jupyter
+pip install matplotlib
+pip install numpy
+pip install perceval-quandela
