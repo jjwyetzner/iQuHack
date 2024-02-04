@@ -38,7 +38,7 @@ Wang et al. ‘23 describe an elementary QGAN based around a two-player game. Bo
 
 In our model, the input state is the maximally-entangled state, 
 $\frac{1}{2}(\ket{00} + \ket{11} + \ket{22} + \ket{33})$ Our true state $\tau$ is given by $\frac{1}{2}(\ket{01} + \ket{11} + \ket{23} + \ket{30})$ The discriminator aims to rotate the true state and measure the $\ket{22}$ basis, which we can use as $M$ in our loss function. The generator and discriminator were modeled after the QGAN photonic architecture seen below from Wang et al.
-![Image of the QGAN photonic architecture for the circuit w/ generator and discriminator from Wang et. al](https://https://github.com/jjwyetzner/iQuHack/blob/main/images/photonicQGAN.png)
+![Image of the QGAN photonic architecture for the circuit w/ generator and discriminator from Wang et. al](https://github.com/jjwyetzner/iQuHack/blob/main/images/photonicQGAN.png)
 
 
 ## State Vectors
