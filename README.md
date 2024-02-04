@@ -34,6 +34,16 @@ numpy==1.26.3
 perceval-quandela==0.10.3
 ```
 ## Circuits
+Wang et al. ‘23 describe an elementary QGAN based around a two-player game. Both players utilize variational quantum circuits with trainable parameters. The first player trains a generator with parameters $\theta_G$, while his opponent trains a discriminator circuit with some parameters $\theta_D$. The goal of the generator is to take in a general quantum state and produces a candidate quantum state $\rho(\theta_G)$ that mimics a true state $\tau$. The discriminator’s role is to perform measurements and identify the true state from the generated state. The difference in the discriminator’s ability is identified by the function $d(\theta_G, \theta_D) = |M(\theta_D)\rho(\theta_G) - M(\theta_D)\tau| where $M$ represents the measurements made by the discriminator
+
+In our model, the input state is the maximally-entangled state, 
+$$\frac{1}{2}(\ket{00} + \ket{11} + \ket{22} + \ket{33})$$
+Our true state $\tau$ is given by
+$$\frac{1}{2}(\ket{01} + \ket{11} + \ket{23} + \ket{30})$$
+The discriminator aims to rotate the true state and measure the $\ket{22}$ basis, which we can use as $M$ in our loss function. The generator and discriminator were modeled after the QGAN photonic architecture seen below from Wang et al.
+
+![Image of the QGAN photonic architecture for the circuit w/ generator and discriminator from Wang et. al.](https://github.com/jjwyetzner/iQuHack/images/photonicQGAN.png)
+
 
 ## State Vectors
 
