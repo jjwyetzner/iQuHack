@@ -20,6 +20,8 @@ Consequently, we will present our own GAN machine learning model which utilizes 
 
 To test the efficacy of GAN model, we trained a generator to produce the $\frac{1}{2}(\ket{01} + \ket{11} + \ket{23} + \ket{30})$ state from an input state which was the maximally entangled quqart $\frac{1}{2}(\ket{00} + \ket{11} + \ket{22} + \ket{33})$ through a QGAN photonic architecture (see [circuits](https://github.com/jjwyetzner/iQuHack#Circuits)). 
 
+Our accompanying slide deck can be accessed [here](https://docs.google.com/presentation/d/11iAowJ_iVNvi8fZ2n6mpuBQ8YCxp9L0Wv2SLBqCV70g/edit#slide=id.g2b4a9f25424_0_353).
+
 ## Dependencies
 To install all dependencies automatically run:
 ```
