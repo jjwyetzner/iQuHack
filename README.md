@@ -10,6 +10,7 @@
 * [Bonus Quantum Heralding Approach](https://github.com/jjwyetzner/iQuHack#Bonus-Quantum-Heralding-Approach)
 * [Bonus Noise Modeling](https://github.com/jjwyetzner/iQuHack#Bonus-Noise-Modeling)
 * [Reflections](https://github.com/jjwyetzner/iQuHack#Reflections)
+* [Acknowledgements](https://github.com/jjwyetzner/iQuHack#Acknowledgements)
 * [Sources](https://github.com/jjwyetzner/iQuHack#Sources)
 
 ## Introduction
