@@ -87,9 +87,9 @@ def calculate_loss(generator_angles, discriminator_angles): #for minimizing from
 
 ## GAN Machine Learning Model
 To determine the appropriate phase shift parameters, we applied a modified gradient descent machine learning technique. Due to the stochastic nature of quantum phenomena, our function is non-differentiable, and therefore, the standard gradient descent is not possible. Instead, we used the Newton-Raphson method, and defined a discrete analog to the gradient descent for our version of backpropagation. We considered each angle of phase shifting to be the weights in our model. For each angle $\theta_n$, we calculated the slope of the secant line between points $\theta_n \pm d\theta$. The slope, $k_n$ is equal to:
-$$\frac{d((\theta_d + d\theta), \theta_g) - d((\theta_d +- d\theta), \theta_g)}{2d\theta}$$
+$$\frac{d((\theta_d + d\theta), \theta_g) - d((\theta_d - d\theta), \theta_g)}{2d\theta}$$
 We equate the gradient, $\nabla d$ to the vertical of $k_n$. The generator and discriminator both utilize the same cost function, so we either subtract or add this gradient to minimize or maximize the value of $d$, respectively. For generating, we minimized, and for discriminating, we maximized. Therefore the new weights, $\theta’$ are defined as:
-$$\theta’ = \theta \pm  k_nd\theta \nabla$$
+$$\theta’ = \theta -  k_nd\theta \nabla$$
 For this process, we switched between training the discriminator and then the generator, each for roughly five-10 epochs at a time. By using this gradient descent with a cost function (the discriminator), we were able to converge to a local minimum. The diagram below illustrates our modified gradient descent process.
 
 <center>
