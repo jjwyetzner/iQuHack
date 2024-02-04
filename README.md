@@ -61,7 +61,7 @@ Discriminator:
 Our first main implementation hurdle was figuring out a way to represent the data such that it can be passed through the circuit and modified as such. Our first solution was to use the StateVector class.
 
 The `StateVector` class allows for superposition of basic states, so we represented the maximally entangled ququart $\alpha$, called `stf` in our code, as a superposition of four 8-mode states: 
-$\alpha = \frac{1}{2}(\ket{00} + \ket{11} + \ket{22} + \ket{33}) = \frac{1}{2}(\ket{1,0,0,0,1,0,0,0} + \ket{0,1,0,0,0,1,0,0} + \ket{0,0,1,0,0,0,1,0} + \ket{0,0,0,1,0,0,0,1})$
+$\alpha = \frac{1}{2}(\ket{00} + \ket{12} + \ket{22} + \ket{33}) = \frac{1}{2}(\ket{1,0,0,0,1,0,0,0} + \ket{0,1,0,0,0,1,0,0} + \ket{0,0,1,0,0,0,1,0} + \ket{0,0,0,1,0,0,0,1})$
 This vector is passed into the generator circuit, which yields a superposition of four new 8-mode states, and this result is passed through the discriminator and sampled to give the distribution of states that are $\ket{22}$.
 A similar procedure is performed for the target state vector $\tau$, which is passed directly into the discriminator and sampled in the same way. The absolute value of the differences of these two distributions is the loss, which is returned out of the `calculate_loss` function.
 
@@ -97,6 +97,31 @@ For this process, we switched between training the discriminator and then the ge
 </center>
 
 ## Results
+We evaluated our model with two metrics: measurement and fidelity. For measurement, we measured the probability magnitude of the logical $\ket{22}$ state. Wang, et al. reported a measurement value of roughly 25% for the circuit components while training, and our results agreed with theirs. As we trained our model, the discriminator measurement peaks at ~25% and the generator catches up. Below are our discriminator and generator measurements compared to the paper's measurements.
+
+Wang et al. measurement results:
+<center>
+    <img src ="https://github.com/jjwyetzner/iQuHack/blob/main/images/expectedmeasurements.png">
+</center>
+
+Our model measurement results:
+<center>
+    <img src = "https://github.com/jjwyetzner/iQuHack/blob/main/images/observedmeasurements.png">
+</center>
+
+Fidelity is the percent distribution of generated samples that are of the desired target form $\tau$, and our goal was to reach near-perfect fidelity with our generator. Our fidelity does not rise monotonically, but our overall results are still very good. Below are is our fidelity compared to the paper's fidelity.
+
+Wang et al. fidelity results:
+<center>
+    <img src = "https://github.com/jjwyetzner/iQuHack/blob/main/images/expectedfidelity.png">
+</center>
+
+Our model fidelity results:
+<center>
+    <img src = "https://github.com/jjwyetzner/iQuHack/blob/main/images/observedfidelity.png">
+</center>
+
+
 
 ## Bonus Quantum Heralding Approach
 Since the state vectors used to prepare our quantumly entangled input state are not actually viable on Quandela’s hardware, we attempted to circumvent this through the use of quantum heralding. The goal of this approach was to achieve the end state of $\ket{1,0,0,0,1,0,0,0} + \ket{0,1,0,0,0,1,0,0}$, a superposition between the $\ket{00}$ and $\ket{11}$ equivalent state. First, we noted that we only needed to check the 0th, 1st, 4th, and 5th modes for 1-values, as the rest would all be equivalent to zero. To do this, we introduced two ancilla qubits, creating a 10-mode register as shown below. We applied beam splitters between the 0th and 1st modes as well as the 4th and 5th modes. The angle was chosen so that if there were a proton in either of the modes, it would go to the 0th and 4th modes, respectively. Then, to utilize the quantum heralding, we applied a permutation that routed the values of modes 0 and 8 to each other and 4 and 9 to each other. Modes 8 and 9 are required to have an input and output of 1, so this stage essentially guaranteed a photon in the 0th and 4th modes. From here, we then used a balanced beam-splitter between 0 and 1, and 4 and 5. This would redistribute the photon to either 0/1 and 4/5. The issue we encountered was the 50% probability that we would get $\ket{1,0,0,0,0,1,0,0}$ or $\ket{0,1,0,0,1,0,0,0}$, which we did not want. 
