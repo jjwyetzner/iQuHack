@@ -51,11 +51,39 @@ Generator:
 </center>
 
 The discriminator that we created can be seen below:
+
 Discriminator:
 <center>
     <img src="https://github.com/jjwyetzner/iQuHack/blob/main/images/discriminator_fig.jpeg">
 </center>
+
 ## State Vectors
+Our first main implementation hurdle was figuring out a way to represent the data such that it can be passed through the circuit and modified as such. Our first solution was to use the StateVector class.
+
+The `StateVector` class allows for superposition of basic states, so we represented the maximally entangled ququart $\alpha$ as a superposition of four 8-mode states: 
+$\[ \alpha = \frac{1}{2}(\ket{00} + \ket{11} + \ket{22} + \ket{33]) = \frac{1}{2}(\ket{1,0,0,0,1,0,0,0} + \ket{0,1,0,0,0,1,0,0} + \ket{0,0,1,0,0,0,1,0} + \ket{0,0,0,1,0,0,0,1]) \]$
+This vector is passed into the generator circuit, which yields a superposition of four new 8-mode states, and this result is passed through the discriminator and sampled to give the distribution of states that are $\ket{22}$.
+A similar procedure is performed for the target state vector $\tau$, which is passed directly into the discriminator and sampled in the same way. The absolute value of the differences of these two distributions is the loss, which is returned out of the `calculate_loss` function.
+
+```python
+def calculate_loss(generator_angles, discriminator_angles): #for minimizing from an ungenerated vector
+ for i in range(30):
+   gen_params[i].set_value(generator_angles[i])
+ for i in range(12):
+   discrim_params[i].set_value(discriminator_angles[i])
+ g_sampler = generate(generator_angles, stf)
+ g_sample = g_sampler.samples(1)['results'][0]
+ d_sampler = discriminate(discriminator_angles, g_sample)
+ dist1 = d_sampler.probs()['results'][pcvl.BasicState("|0, 1, 0, 0, 0, 1, 0, 0>")]
+
+
+ tau_d_sampler = discriminate(discriminator_angles, tau)
+ dist2 = tau_d_sampler.probs()['results'][pcvl.BasicState("|0, 1, 0, 0, 0, 1, 0, 0>")]
+
+
+ return abs(dist1 - dist2), dist1, dist2
+```
+
 
 ## GAN Machine Learning Model
 
