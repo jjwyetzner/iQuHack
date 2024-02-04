@@ -7,9 +7,10 @@
 * [State Vectors](https://github.com/jjwyetzner/iQuHack#State-Vectors)
 * [GAN Machine Learning Model](https://github.com/jjwyetzner/iQuHack#Gan-Machine-Learning-Model)
 * [Results](https://github.com/jjwyetzner/iQuHack#Results)
-* [Sources](https://github.com/jjwyetzner/iQuHack#Sources)
+* [Bonus - Quantum Heralding Approach](https://github.com/jjwyetzner/iQuHack#Bonus---Quantum-Heralding-Approach)
+* [Bonus - Noise Modeling](https://github.com/jjwyetzner/iQuHack#Bonus---Noise-Modeling)
 * [Reflections](https://github.com/jjwyetzner/iQuHack#Reflections)
-* [Bonus: Quantum Heralding Approach](https://github.com/jjwyetzner/iQuHack#Bonus:-Quantum-Heralding-Approach)
+* [Sources](https://github.com/jjwyetzner/iQuHack#Sources)
 
 ## Introduction
 This project was designed to implement a Quantum Generative Adversarial Networks  (QGAN) based on the following [research paper](https://arxiv.org/pdf/2310.00585.pdf) by Wang et. Al. With the rise in advancements in integrated photonic technology, optical representations of quantum bits are becoming a promising alternative for quantum computation representation. In our project, we explore these photonic systems through the implementation of QGANs in the presence of noise, using stochastically adapted gradient descent to achieve higher fidelity. 
