@@ -92,12 +92,22 @@ To determine the appropriate phase shift parameters, we applied a modified gradi
 $$\frac{d((\theta_d + d\theta), \theta_g) - d((\theta_d +- d\theta), \theta_g)}{2d\theta}$$
 We equate the gradient, $\nabla d$ to the vertical of $k_n$. The generator and discriminator both utilize the same cost function, so we either subtract or add this gradient to minimize or maximize the value of $d$, respectively. For generating, we minimized, and for discriminating, we maximized. Therefore the new weights, $\theta’$ are defined as:
 $$\theta’ = \theta \pm  k_nd\theta \nabla$$
-For this process, we switched between training the discriminator and then the generator, each for roughly five-10 epochs at a time. By using this gradient descent with a cost function (the discriminator), we were able to converge to a local minimum.
+For this process, we switched between training the discriminator and then the generator, each for roughly five-10 epochs at a time. By using this gradient descent with a cost function (the discriminator), we were able to converge to a local minimum. The diagram below illustrates our modified gradient descent process.
 
+<center>
+    <img src = "https://github.com/jjwyetzner/iQuHack/blob/main/images/gradientdescentdiagram.png">
+</center>
 
 ## Results
 
 ## Bonus Quantum Heralding Approach
+Since the state vectors used to prepare our quantumly entangled input state are not actually viable on Quandela’s hardware, we attempted to circumvent this through the use of quantum heralding. The goal of this approach was to achieve the end state of $$|1000, 1000> + |0100, 0100>$$, a superposition between the $|00>$ and $|11>$ equivalent state. First, we noted that we only needed to check the 0th, 1st, 4th, and 5th modes for 1-values, as the rest would all be equivalent to zero. To do this, we introduced two ancilla qubits, creating a 10-mode register as shown below. We applied beam splitters between the 0th and 1st modes as well as the 4th and 5th modes. The angle was chosen so that if there were a proton in either of the modes, it would go to the 0th and 4th modes, respectively. Then, to utilize the quantum heralding, we applied a permutation that routed the values of modes 0 and 8 to each other and 4 and 9 to each other. Modes 8 and 9 are required to have an input and output of 1, so this stage essentially guaranteed a photon in the 0th and 4th modes. From here, we then used a balanced beam-splitter between 0 and 1, and 4 and 5. This would redistribute the photon to either 0/1 and 4/5. The issue we encountered was the 50% probability that we would get $|1000, 0100>$ or $|0100, 1000>$, which we did not want. 
+
+<center>
+    <img src = "https://github.com/jjwyetzner/iQuHack/blob/main/images/quantumheraldingcircuit.png">
+</center>
+
+Our idea is to take away the second beam-splitter between 4/5  and to place CNOT gates on 4 and 5, both controlled by 1. This would ensure a 50/50 distribution of the two desired states, as seen above. However, we had trouble designing this type of gate in Perceval and moved on to focus on other parts of the project. 
 
 ## Bonus Noise Modeling
 
