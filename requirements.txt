@@ -1,2 +1,4 @@
-pip install perceval-quandela
-python --version=3.11
+﻿jupyter==1.0.0
+matplotlib==3.8.2
+numpy==1.26.3
+perceval-quandela==0.10.3
