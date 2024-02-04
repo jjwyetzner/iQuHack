@@ -60,7 +60,7 @@ Discriminator:
 ## State Vectors
 Our first main implementation hurdle was figuring out a way to represent the data such that it can be passed through the circuit and modified as such. Our first solution was to use the StateVector class.
 
-The `StateVector` class allows for superposition of basic states, so we represented the maximally entangled ququart $\alpha$ as a superposition of four 8-mode states: 
+The `StateVector` class allows for superposition of basic states, so we represented the maximally entangled ququart $\alpha$, called `stf` in our code, as a superposition of four 8-mode states: 
 $\alpha = \frac{1}{2}(\ket{00} + \ket{11} + \ket{22} + \ket{33}) = \frac{1}{2}(\ket{1,0,0,0,1,0,0,0} + \ket{0,1,0,0,0,1,0,0} + \ket{0,0,1,0,0,0,1,0} + \ket{0,0,0,1,0,0,0,1})$
 This vector is passed into the generator circuit, which yields a superposition of four new 8-mode states, and this result is passed through the discriminator and sampled to give the distribution of states that are $\ket{22}$.
 A similar procedure is performed for the target state vector $\tau$, which is passed directly into the discriminator and sampled in the same way. The absolute value of the differences of these two distributions is the loss, which is returned out of the `calculate_loss` function.
