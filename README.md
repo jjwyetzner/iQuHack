@@ -7,8 +7,8 @@
 * [State Vectors](https://github.com/jjwyetzner/iQuHack#State-Vectors)
 * [GAN Machine Learning Model](https://github.com/jjwyetzner/iQuHack#Gan-Machine-Learning-Model)
 * [Results](https://github.com/jjwyetzner/iQuHack#Results)
-* [Bonus - Quantum Heralding Approach](https://github.com/jjwyetzner/iQuHack#Bonus---Quantum-Heralding-Approach)
-* [Bonus - Noise Modeling](https://github.com/jjwyetzner/iQuHack#Bonus---Noise-Modeling)
+* [Bonus Quantum Heralding Approach](https://github.com/jjwyetzner/iQuHack#Bonus-Quantum-Heralding-Approach)
+* [Bonus Noise Modeling](https://github.com/jjwyetzner/iQuHack#Bonus-Noise-Modeling)
 * [Reflections](https://github.com/jjwyetzner/iQuHack#Reflections)
 * [Sources](https://github.com/jjwyetzner/iQuHack#Sources)
 
@@ -97,9 +97,9 @@ For this process, we switched between training the discriminator and then the ge
 
 ## Results
 
-## Bonus: Quantum Heralding Approach
+## Bonus Quantum Heralding Approach
 
-## Bonus: Noise Modeling
+## Bonus Noise Modeling
 
 ## Reflections
 If we were to go back and do this project again, we would first focus on getting our model working and optimized as soon as possible. Our model performed extremely poorly when we first coded it, and it took hours to debug it and incrementally improve performance. One of the main consequences of this was that we found training for maximizing fidelity instead of minimizing loss yields significantly better results. Within 100 epochs, training against loss reached peak fidelity values of ~40%. In the same timeframe, training against fidelity easily reached peak values of 99.9%. We believe this is due to the inherently contrived nature of the QGAN setup, especially with the uncertainty within the discriminator circuit. The second aspect of our project we would put more time and focus on is understanding the discriminator. After maximizing our cost function from multiple initial states, we noted that some combinations of $\theta_D$ allowed the discriminator to prefer other superpositions that $\tau$ while still outputting high magnitudes for $\ket{22}$. This suggests that other states could also be rotated appropriately by our discriminator, weakening our model’s fidelity measure. A significant barrier we ran into during this project was a failure to understand the discriminator measurement. In Wang, et al., the suggested loss function is based on the second output port as a mathematical byproduct of changing bases to $P_{(2,2)}$. The discriminator does not fully rotate the $\tau$ vector into that basis though, which became a source of significant confusion. As a result of the partial rotation, the probability magnitude of $P_{(2,2)}$ reached a maximum value of 0.25, a concerning weakness until we noticed that the paper contained a similar graph scale.
