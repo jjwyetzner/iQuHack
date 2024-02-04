@@ -22,17 +22,17 @@ To test the efficacy of GAN model, we trained a generator to produce the $\frac{
 
 ## Dependencies
 To install all dependencies automatically run:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 The following packages will be necessary for our QGAN model:
-'''
+```
 jupyter==1.0.0
 matplotlib==3.8.2
 numpy==1.26.3
 perceval-quandela==0.10.3
-'''
+```
 ## Circuits
 
 ## State Vectors
