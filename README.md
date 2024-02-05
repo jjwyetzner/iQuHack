@@ -1,4 +1,4 @@
-# Yale Varsity Clash Royale Team (Team 33) - iQuHack 2024, Quandela Challenge
+# Yale Varsity Clash Royale Team (Team 33) - iQuHack 2024, Quandela Challenge (First Place Winner)
 
 ## Table of Contents
 * [Introduction](https://github.com/jjwyetzner/iQuHack#Introduction)
